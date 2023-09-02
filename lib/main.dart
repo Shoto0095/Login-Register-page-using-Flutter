@@ -8,7 +8,8 @@ void main() {
     initialRoute: 'login',
     routes: {
       'login': (context) => Welogin(),
-      'register': (context) => Weregister()
+      'register': (context) => Weregister(),
+      // 'test' :(context) => test(),
     },
   ));
 }
